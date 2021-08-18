@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #e0e8ff url(images/pattern-background-desktop.svg) no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+div .order {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  width: 400px;
+  height: 650px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: inline-block;
+  align-content: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0px 20px 20px 0px #c8d3f7;
+}
+
+img {
+  align-content: center;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+h1 {
+  color: #363b5d;
+  margin: 35px 0 0;
+  text-align: center;
+  font: 700 27px/1.75 "Montserrat", sans-serif;
+}
+
+b {
+  display: block;
+  font: 600 16px/1.75 "Montserrat", sans-serif;
+  padding: 0 20px;
+  color: #363b5d;
+}
+
+a {
+  font: 600 14px/1.75 "Montserrat", sans-serif;
+}
+
+/* p {
+  font: 500 15px/1.75 "Montserrat", sans-serif;
+} */
+
+.text {
+  color: #797c91;
+  display: inline-block;
+  padding: 20px 50px;
+  font: 500 15px/1.75 "Montserrat", sans-serif;
+  /* font: 400 15px/1.75 "Montserrat", sans-serif; */
+  /* font-size: 15px; */
+  margin: 0;
+}
+.price {
+  color: #797c91;
+  display: block;
+  text-align: left;
+  padding: 0 20px;
+  font: 500 15px/1.75 "Montserrat", sans-serif;
+  /* font-size: 15px; */
+  margin: 0;
+}
+div .annual {
+  width: auto;
+  background-color: #f8f9fe;
+  text-decoration: none;
+  padding: 20px 17px;
+  border-radius: 10px;
+  display: inline-block;
+}
+div .icon {
+  float: left;
+  align-content: center;
+}
+
+div .btn {
+  background: #382be1;
+  color: #f7fff7;
+  text-decoration: none;
+  padding: 15px 84px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px auto;
+  box-shadow: 0px 20px 20px 0px #e0ddfa;
+}
+
+div .cancel {
+  color: #797c91;
+  padding-bottom: 40px;
+  display: inline-block;
+}
+
+div .plan {
+  float: left;
+}
+.change {
+  float: right;
+  padding: 15px 0 0 40px;
+  color: #483bc1;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 23px;
+    margin: 15px 0 0;
+  }
+  .text {
+    display: inline-block;
+    padding: 10px 50px 30px;
+    font: 500 14px/1.75 "Montserrat", sans-serif;
+  }
+  div .annual {
+    margin: 0 25px 0;
+  }
+  b {
+    font-size: 15px;
+  }
+
+  div .cancel {
+    font-size: 15px;
+  }
+  .change {
+    font-size: 12px;
+  }
+  div .btn {
+    font-size: 15px;
+  }
+}
